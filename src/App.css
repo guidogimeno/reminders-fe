@@ -1,0 +1,39 @@
+@import './components/Reminder/styles.css';
+@import './components/RemindersContainer/styles.css';
+@import './components/NewReminderButton/styles.css';
+@import './components/Landing/styles.css';
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  text-align: center;
+  background-color: #282c34;
+}
+
+/* Estilos para el scrollbar */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho del scrollbar */
+  border-radius: 3px;
+}
+
+/* Estilos para el thumb del scrollbar (la barra que se mueve) */
+::-webkit-scrollbar-thumb {
+  background-color: #3b414d;
+  border-radius: 5px; 
+}
+
+/* Estilos para el track del scrollbar (la barra fija donde se mueve el thumb) */
+::-webkit-scrollbar-track {
+  background-color: #282c34;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
